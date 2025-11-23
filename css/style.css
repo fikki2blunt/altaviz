@@ -203,16 +203,22 @@ body {
 /* darken images for text contrast; replace filenames as needed */
 .carousel-slide.slide-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/module.png");
+    url("../Assets/carousel\ 1.jpg");
 }
 .carousel-slide.slide-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/Gemini_Generated_Image_psztn6psztn6pszt.png");
+    url("../Assets/carousel\ 2.jpg");
 }
 .carousel-slide.slide-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/cash collect.png");
+    url("../Assets/carousel\ 3.jpg");
 }
+
+.carousel-slide.slide-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("../Assets/carousel\ 4.jpg");
+}
+
 
 /* keep overlay subtle (overlay exists for additional fine-tune) */
 .hero-overlay {
@@ -443,6 +449,8 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+
 .about-img:hover {
   transform: translateY(-5px) scale(1.02);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
@@ -524,6 +532,25 @@ body {
   color: #10b981;
   font-weight: bold;
   margin-right: 0.5rem;
+}
+
+/* Team: heading + full-width image */
+.team-section { padding: 3rem 0; }
+.team-section .container { max-width:1200px; margin:0 auto; }
+.team-section .section-title { margin-bottom: 1rem; text-align:left; }
+
+/* make the team image fill the container cleanly */
+.team-media { width: 100%; display:block; border-radius: 12px; overflow: hidden; box-shadow: 0 12px 30px rgba(2,6,23,0.06); }
+.team-media .team-photo {
+  display: block;
+  width: 100%;
+  height: 380px;           /* adjust height to taste */
+  object-fit: cover;       /* crop to fill while keeping aspect */
+}
+
+/* smaller screens */
+@media (max-width: 768px) {
+  .team-media .team-photo { height: 220px; }
 }
 
 /* Partners / logos */
