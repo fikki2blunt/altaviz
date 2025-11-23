@@ -203,20 +203,20 @@ body {
 /* darken images for text contrast; replace filenames as needed */
 .carousel-slide.slide-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/carousel\ 1.jpg");
+    url("../Assets/carousel1.jpg");
 }
 .carousel-slide.slide-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/carousel\ 2.jpg");
+    url("../Assets/carousel2.jpg");
 }
 .carousel-slide.slide-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/carousel\ 3.jpg");
+    url("../Assets/carousel3.jpg");
 }
 
 .carousel-slide.slide-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../Assets/carousel\ 4.jpg");
+    url("../Assets/carousel4.jpg");
 }
 
 
